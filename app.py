@@ -14,7 +14,7 @@ Gunakan sidebar untuk navigasi ke halaman-halaman berikut:
 |---|---|
 | 🔍 **Inference** | Upload gambar → prediksi Real/Fake + confidence score + Grad-CAM heatmap |
 | 📊 **Evaluasi In-Dataset** | Evaluasi pada test set terstruktur (folder `real/` & `fake/`) |
-| 📈 **Evaluasi Out-of-Dataset** | Evaluasi pada data eksternal dengan label dari nama file |
+| 📈 **Evaluasi Out-of-Dataset** | Evaluasi pada data eksternal dengan label dari kolom upload (REAL/FAKE) |
 | 📉 **Analisis** | Histogram confidence score & export hasil ke CSV |
 
 ### Spesifikasi Model

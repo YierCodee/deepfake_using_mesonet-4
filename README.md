@@ -10,7 +10,7 @@ Model mengklasifikasikan gambar wajah sebagai **REAL** atau **FAKE**, dilengkapi
 |---|---|
 | 🔍 **Inference** | Upload gambar (single / batch, maks. 100) → prediksi Real/Fake + confidence score + heatmap Grad-CAM |
 | 📊 **Evaluasi In-Dataset** | Upload ZIP test set terstruktur (`real/` & `fake/`), hitung akurasi, precision, recall, F1, AUC-ROC, confusion matrix, ROC curve |
-| 📈 **Evaluasi Out-of-Dataset** | Upload gambar eksternal, parse label dari prefix nama file (`real_`/`fake_`), metrik + galeri misclassified + perbandingan side-by-side dengan in-dataset |
+| 📈 **Evaluasi Out-of-Dataset** | Upload gambar eksternal, label ditentukan dari kolom upload (REAL/FAKE), metrik + galeri misclassified + perbandingan side-by-side dengan in-dataset |
 | 📉 **Analisis** | Histogram distribusi confidence score, metrik overconfidence, export semua hasil ke CSV |
 
 ## Teknologi
